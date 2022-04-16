@@ -1,1 +1,1 @@
-# landing-page
+This is a landing page where I will use my newly gained skills with html, css and flexbox.
