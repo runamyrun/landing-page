@@ -1,16 +1,15 @@
 body {
-    font-family: roboto;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .header {
   display: flex; 
   justify-content: space-between;   
-  padding-top: 12px;
 }
 
 .links {
     display: flex;
-    gap: 12px;
+    gap: 25px;
 }
 
 ul {
@@ -28,12 +27,13 @@ a {
 }
 
 .top {
-    padding: 0px 30px;
+    padding: 20px 180px 150px 180px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
 .main-text {
     font-size: 48px;
@@ -49,18 +49,38 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 .content {
     display: flex;
+    margin-top: 150px;
     justify-content: space-between;
 }
 
 img.clouds {
-    height: auto;
+    height: 300px;
+    width: 600px;
+}
+
+.top-main {
     width: 500px;
 }
 
+.second-text {
+    margin: 8px 0px 15px 0px;
+}
+
+.sign-up {
+    border:2px solid #3882F6;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0px 40px;
+    height: 40px;  
+}
 .random {
     text-align: center;
     font-size: 36px;
@@ -93,7 +113,7 @@ img.clouds {
 button, .action-box {
     background-color: #3882F6;
     color: #E5E7EB;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .quote {
@@ -125,4 +145,21 @@ button, .action-box {
 }
 .action-box {
     display: flex;
+    padding: 50px 100px;
+    margin: 100px 200px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sign-up2 {
+    border:2px solid #F9FAF8;
+    }
+
+.product {
+    font-size: 18px;
 }
